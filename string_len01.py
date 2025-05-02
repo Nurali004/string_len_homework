@@ -6,4 +6,7 @@ def main(a):
     Returns:
         length of string
     """
-    return
+    return len(a)
+
+a="sdffggg"
+print(main(a))
