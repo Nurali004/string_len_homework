@@ -7,4 +7,8 @@ def main(s1,s2):
     Returns:
         shortest string
     """
-    return
+    return min(len(s1), len(s2))
+    
+s1="sdsdhjhsd"
+s2="dsndsd"
+print(main(s1,s2))
