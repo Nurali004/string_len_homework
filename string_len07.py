@@ -8,4 +8,16 @@ def main(s1,s2,s3):
     Returns:
         string
     """
-    return
+    if len(s1)%2==1:
+        return "toq"
+    if len(s2)%2==1:
+        return "toq"
+    if len(s3)%2==1:
+        return "toq"
+    else:
+        return "juft"
+
+s1="fjhfjhdfh"
+s2="dfnjdjhdn"
+s3="ndsjhdfhbdf"
+print(main(s1,s2,s3))
